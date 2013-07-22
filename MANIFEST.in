@@ -1,0 +1,6 @@
+include setup.py
+include README.rst
+include LICENSE
+include ci-deploy.sh ci-verify.sh
+include fabfile.py costa-ci.conf
+include costa.py copy_ssh_id.py cloud_manager.py
